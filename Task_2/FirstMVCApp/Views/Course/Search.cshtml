@@ -1,0 +1,16 @@
+﻿@{
+    ViewData["Title"] = "Course Search";
+}
+
+<h2>Course Search</h2>
+
+@if (!string.IsNullOrEmpty(ViewBag.Keyword))
+{
+    <p>Showing results for keyword: <strong>@ViewBag.Keyword</strong></p>
+}
+else
+{
+    <p>No keyword provided. Try <code>/courses/search?keyword=mvc</code></p>
+}
+
+<a href="/courses">Back to All Courses</a>
