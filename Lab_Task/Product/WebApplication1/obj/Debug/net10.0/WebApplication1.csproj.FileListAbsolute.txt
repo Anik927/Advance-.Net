@@ -1,0 +1,10 @@
+C:\Users\Anik\Desktop\Advance-.Net\Lab_Task\Product\WebApplication1\obj\Debug\net10.0\WebApplication1.csproj.AssemblyReference.cache
+C:\Users\Anik\Desktop\Advance-.Net\Lab_Task\Product\WebApplication1\obj\Debug\net10.0\rpswa.dswa.cache.json
+C:\Users\Anik\Desktop\Advance-.Net\Lab_Task\Product\WebApplication1\obj\Debug\net10.0\WebApplication1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Anik\Desktop\Advance-.Net\Lab_Task\Product\WebApplication1\obj\Debug\net10.0\WebApplication1.AssemblyInfoInputs.cache
+C:\Users\Anik\Desktop\Advance-.Net\Lab_Task\Product\WebApplication1\obj\Debug\net10.0\WebApplication1.AssemblyInfo.cs
+C:\Users\Anik\Desktop\Advance-.Net\Lab_Task\Product\WebApplication1\obj\Debug\net10.0\WebApplication1.csproj.CoreCompileInputs.cache
+C:\Users\Anik\Desktop\Advance-.Net\Lab_Task\Product\WebApplication1\obj\Debug\net10.0\WebApplication1.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Anik\Desktop\Advance-.Net\Lab_Task\Product\WebApplication1\obj\Debug\net10.0\WebApplication1.RazorAssemblyInfo.cache
+C:\Users\Anik\Desktop\Advance-.Net\Lab_Task\Product\WebApplication1\obj\Debug\net10.0\WebApplication1.RazorAssemblyInfo.cs
+C:\Users\Anik\Desktop\Advance-.Net\Lab_Task\Product\WebApplication1\obj\Debug\net10.0\WebApplication1.sourcelink.json

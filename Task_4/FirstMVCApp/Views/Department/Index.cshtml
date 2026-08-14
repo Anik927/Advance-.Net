@@ -1,0 +1,20 @@
+﻿@model List<FirstMVCApp.Data.Entities.Department>
+@{
+    ViewData["Title"] = "Departments";
+}
+<h2>Departments</h2>
+<table border="1" cellpadding="6" cellspacing="0">
+    <thead>
+        <tr><th>ID</th><th>Name</th><th>Location</th></tr>
+    </thead>
+    <tbody>
+        @foreach (var dept in Model)
+        {
+            <tr>
+                <td>@dept.DepartmentId</td>
+                <td>@dept.DepartmentName</td>
+                <td>@dept.Location</td>
+            </tr>
+        }
+    </tbody>
+</table>
