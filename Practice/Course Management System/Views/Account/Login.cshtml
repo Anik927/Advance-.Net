@@ -1,0 +1,20 @@
+﻿@model LoginViewModel
+<h2>Login</h2>
+<form method="post">
+	<div class="mb-3">
+		<label class="form-label" asp-for="StudentId" ></label>
+		<input type="text" class="form-label" asp-for="StudentId" />
+		<span class="bg-danger-subtle" asp-validation-for="StudentId"></span>
+	</div>
+
+	<div class="mb-3">
+		<label class="form-label" asp-for="Password" ></label>
+		<input type="text" class="form-label" asp-for="Password" />
+		<span class="bg-danger-subtle" asp-validation-for="Password"></span>
+	</div>
+
+	<div class="mb-3">
+		<button type="submit" value ="Login" class="btn btn-primary">Login</button>
+	</div>
+
+</form>
