@@ -1,0 +1,287 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Admin\\Desktop\\Advance-.Net\\Practice\\WebApplication1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{19317912-AC4B-45A3-1276-85453B678B5B}|WebApplication1.csproj|c:\\users\\admin\\desktop\\advance-.net\\practice\\webapplication1\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{19317912-AC4B-45A3-1276-85453B678B5B}|WebApplication1.csproj|solutionrelative:views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19317912-AC4B-45A3-1276-85453B678B5B}|WebApplication1.csproj|c:\\users\\admin\\desktop\\advance-.net\\practice\\webapplication1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{19317912-AC4B-45A3-1276-85453B678B5B}|WebApplication1.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19317912-AC4B-45A3-1276-85453B678B5B}|WebApplication1.csproj|c:\\users\\admin\\desktop\\advance-.net\\practice\\webapplication1\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{19317912-AC4B-45A3-1276-85453B678B5B}|WebApplication1.csproj|solutionrelative:controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19317912-AC4B-45A3-1276-85453B678B5B}|WebApplication1.csproj|c:\\users\\admin\\desktop\\advance-.net\\practice\\webapplication1\\ef\\cmsdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{19317912-AC4B-45A3-1276-85453B678B5B}|WebApplication1.csproj|solutionrelative:ef\\cmsdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Admin\\Desktop\\Advance-.Net\\Practice\\WebApplication1\\Migrations\\20260822165807_UserAdded4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20260822165807_UserAdded4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Admin\\Desktop\\Advance-.Net\\Practice\\WebApplication1\\Migrations\\20260822164634_UserAdded3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20260822164634_UserAdded3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19317912-AC4B-45A3-1276-85453B678B5B}|WebApplication1.csproj|c:\\users\\admin\\desktop\\advance-.net\\practice\\webapplication1\\ef\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{19317912-AC4B-45A3-1276-85453B678B5B}|WebApplication1.csproj|solutionrelative:ef\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19317912-AC4B-45A3-1276-85453B678B5B}|WebApplication1.csproj|c:\\users\\admin\\desktop\\advance-.net\\practice\\webapplication1\\ef\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{19317912-AC4B-45A3-1276-85453B678B5B}|WebApplication1.csproj|solutionrelative:ef\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19317912-AC4B-45A3-1276-85453B678B5B}|WebApplication1.csproj|c:\\users\\admin\\desktop\\advance-.net\\practice\\webapplication1\\ef\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{19317912-AC4B-45A3-1276-85453B678B5B}|WebApplication1.csproj|solutionrelative:ef\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19317912-AC4B-45A3-1276-85453B678B5B}|WebApplication1.csproj|c:\\users\\admin\\desktop\\advance-.net\\practice\\webapplication1\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{19317912-AC4B-45A3-1276-85453B678B5B}|WebApplication1.csproj|solutionrelative:controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Admin\\Desktop\\Advance-.Net\\Practice\\Course Management System\\Views\\Account\\Login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19317912-AC4B-45A3-1276-85453B678B5B}|WebApplication1.csproj|c:\\users\\admin\\desktop\\advance-.net\\practice\\webapplication1\\ef\\department.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{19317912-AC4B-45A3-1276-85453B678B5B}|WebApplication1.csproj|solutionrelative:ef\\department.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19317912-AC4B-45A3-1276-85453B678B5B}|WebApplication1.csproj|c:\\users\\admin\\desktop\\advance-.net\\practice\\webapplication1\\ef\\viewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{19317912-AC4B-45A3-1276-85453B678B5B}|WebApplication1.csproj|solutionrelative:ef\\viewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19317912-AC4B-45A3-1276-85453B678B5B}|WebApplication1.csproj|c:\\users\\admin\\desktop\\advance-.net\\practice\\webapplication1\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{19317912-AC4B-45A3-1276-85453B678B5B}|WebApplication1.csproj|solutionrelative:views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19317912-AC4B-45A3-1276-85453B678B5B}|WebApplication1.csproj|c:\\users\\admin\\desktop\\advance-.net\\practice\\webapplication1\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{19317912-AC4B-45A3-1276-85453B678B5B}|WebApplication1.csproj|solutionrelative:views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "20260822164634_UserAdded3.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Advance-.Net\\Practice\\WebApplication1\\Migrations\\20260822164634_UserAdded3.cs",
+              "RelativeDocumentMoniker": "Migrations\\20260822164634_UserAdded3.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\Advance-.Net\\Practice\\WebApplication1\\Migrations\\20260822164634_UserAdded3.cs",
+              "RelativeToolTip": "Migrations\\20260822164634_UserAdded3.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAABFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-22T16:46:34.69Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CMSDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Advance-.Net\\Practice\\WebApplication1\\EF\\CMSDbContext.cs",
+              "RelativeDocumentMoniker": "EF\\CMSDbContext.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\Advance-.Net\\Practice\\WebApplication1\\EF\\CMSDbContext.cs",
+              "RelativeToolTip": "EF\\CMSDbContext.cs",
+              "ViewState": "AgIAAA8AAADAzMzMzMw6wBwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-22T12:52:20.401Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Advance-.Net\\Practice\\WebApplication1\\Views\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "Views\\Account\\Login.cshtml",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\Advance-.Net\\Practice\\WebApplication1\\Views\\Account\\Login.cshtml",
+              "RelativeToolTip": "Views\\Account\\Login.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-08-22T13:52:37.433Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Advance-.Net\\Practice\\WebApplication1\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AccountController.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\Advance-.Net\\Practice\\WebApplication1\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "Controllers\\AccountController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-22T15:57:32.041Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "StudentController.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Advance-.Net\\Practice\\WebApplication1\\Controllers\\StudentController.cs",
+              "RelativeDocumentMoniker": "Controllers\\StudentController.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\Advance-.Net\\Practice\\WebApplication1\\Controllers\\StudentController.cs",
+              "RelativeToolTip": "Controllers\\StudentController.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAcAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-22T15:39:14.652Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "20260822165807_UserAdded4.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Advance-.Net\\Practice\\WebApplication1\\Migrations\\20260822165807_UserAdded4.cs",
+              "RelativeDocumentMoniker": "Migrations\\20260822165807_UserAdded4.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\Advance-.Net\\Practice\\WebApplication1\\Migrations\\20260822165807_UserAdded4.cs",
+              "RelativeToolTip": "Migrations\\20260822165807_UserAdded4.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-22T16:58:07.456Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Advance-.Net\\Practice\\WebApplication1\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\Advance-.Net\\Practice\\WebApplication1\\Program.cs*",
+              "RelativeToolTip": "Program.cs*",
+              "ViewState": "AgIAAAoAAABAMzMzMzMbwA4AAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-22T13:04:35.087Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Admin.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Advance-.Net\\Practice\\WebApplication1\\EF\\Admin.cs",
+              "RelativeDocumentMoniker": "EF\\Admin.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\Advance-.Net\\Practice\\WebApplication1\\EF\\Admin.cs",
+              "RelativeToolTip": "EF\\Admin.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-22T16:05:04.706Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Student.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Advance-.Net\\Practice\\WebApplication1\\EF\\Student.cs",
+              "RelativeDocumentMoniker": "EF\\Student.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\Advance-.Net\\Practice\\WebApplication1\\EF\\Student.cs",
+              "RelativeToolTip": "EF\\Student.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-22T07:25:48.625Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Advance-.Net\\Practice\\WebApplication1\\EF\\User.cs",
+              "RelativeDocumentMoniker": "EF\\User.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\Advance-.Net\\Practice\\WebApplication1\\EF\\User.cs",
+              "RelativeToolTip": "EF\\User.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAxwBsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-22T15:58:52.855Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Advance-.Net\\Practice\\Course Management System\\Views\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "..\\Course Management System\\Views\\Account\\Login.cshtml",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\Advance-.Net\\Practice\\Course Management System\\Views\\Account\\Login.cshtml",
+              "RelativeToolTip": "..\\Course Management System\\Views\\Account\\Login.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-08-22T13:56:56.997Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Advance-.Net\\Practice\\WebApplication1\\EF\\ViewModel.cs",
+              "RelativeDocumentMoniker": "EF\\ViewModel.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\Advance-.Net\\Practice\\WebApplication1\\EF\\ViewModel.cs",
+              "RelativeToolTip": "EF\\ViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-22T12:55:47.806Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Department.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Advance-.Net\\Practice\\WebApplication1\\EF\\Department.cs",
+              "RelativeDocumentMoniker": "EF\\Department.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\Advance-.Net\\Practice\\WebApplication1\\EF\\Department.cs",
+              "RelativeToolTip": "EF\\Department.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-22T12:37:43.634Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Advance-.Net\\Practice\\WebApplication1\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "Views\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\Advance-.Net\\Practice\\WebApplication1\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "Views\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-08-22T12:35:55.654Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Advance-.Net\\Practice\\WebApplication1\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "Views\\_ViewStart.cshtml",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\Advance-.Net\\Practice\\WebApplication1\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "Views\\_ViewStart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-08-22T12:37:57.819Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 1083,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
