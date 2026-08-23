@@ -9,7 +9,5 @@ namespace WebApplication1.EF
 		[Required,Range(1,3,ErrorMessage ="Invalid admin Level")]
 		public int AdminLevel { get; set; }
 
-
-
 	}
 }
