@@ -58,11 +58,15 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{c6f34f0d-7ae5-4f3a-be61-fe0c21ae9eb8}"
             },
             {
               "$type": "Document",
@@ -108,7 +112,7 @@
               "RelativeDocumentMoniker": "Controllers\\AccountController.cs",
               "ToolTip": "C:\\Users\\Admin\\Desktop\\Advance-.Net\\Practice\\Course Management System\\Controllers\\AccountController.cs",
               "RelativeToolTip": "Controllers\\AccountController.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAgwBsAAAANAAAAAAAAAA==",
+              "ViewState": "AgIAAAcAAACgmZmZmZklwBUAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-08-17T20:52:29.103Z",
               "EditorCaption": ""
@@ -135,8 +139,7 @@
               "RelativeToolTip": "Views\\Account\\Login.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-08-17T21:06:06.646Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-08-17T21:06:06.646Z"
             },
             {
               "$type": "Document",
@@ -148,8 +151,7 @@
               "RelativeToolTip": "Controllers\\StudentsController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-17T20:43:21.408Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-08-17T20:43:21.408Z"
             },
             {
               "$type": "Document",
@@ -161,8 +163,7 @@
               "RelativeToolTip": "appsettings.Development.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-08-17T18:10:32.837Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-08-17T18:10:32.837Z"
             },
             {
               "$type": "Document",

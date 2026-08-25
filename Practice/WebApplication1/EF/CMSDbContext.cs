@@ -14,30 +14,46 @@ namespace WebApplication1.EF
 		public DbSet<Admin> Admins { get; set; }
 
 		public DbSet<User> Users { get; set; }
-
-		protected override void OnModelCreating(ModelBuilder modelBuilder)
+		
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
 		{
-			modelBuilder.Entity<User>().ToTable("Users");
-			modelBuilder.Entity<Student>().ToTable("Students");
-			modelBuilder.Entity<Admin>().ToTable("Admins");
+			base.OnModelCreating(modelBuilder);
+		
+			// Configure the one-to-one relationship between User and Student
+			modelBuilder.Entity<Student>()
+				.HasOne(s => s.User)
+				.WithOne()
+				.HasForeignKey<Student>(s => s.Id)
+				.OnDelete(DeleteBehavior.Cascade);
+			// Configure the one-to-one relationship between User and Admin
+			modelBuilder.Entity<Admin>()
+				.HasOne(a => a.User)
+				.WithOne()
+				.HasForeignKey<Admin>(a => a.Id)
+				.OnDelete(DeleteBehavior.Cascade);
 
 			modelBuilder.Entity<Department>().HasData(
 				new Department { Id = 1, Name = "Computer Science" },
-				new Department { Id = 2, Name = "Mathematics" },
-				new Department { Id = 3, Name = "Physics" }
+				new Department { Id = 2, Name = "Electrical Engineering" },
+				new Department { Id = 3, Name = "Mechanical Engineering" }
 			);
 
-			modelBuilder.Entity<Student>().HasData(
-				new Student { Id = 1, Name = "Alice", Age = 20, BloodGroup = "O-", Password = "password1", Role = "Student", DepartmentId = 1, SemesterNumber = 3 },
-				new Student { Id = 2, Name = "Bob", Age = 22, BloodGroup = "A+", Password = "password2", Role = "Student", DepartmentId = 2, SemesterNumber = 5 },
-				new Student { Id = 3, Name = "Charlie", Age = 21, BloodGroup = "O+", Password = "password3", Role = "Student", DepartmentId = 3, SemesterNumber = 1 }
+			modelBuilder.Entity<User>().HasData(
+				new User { Id = 1, Name = "John Doe", Password = "password123", Role = "Student", Age = 20, BloodGroup="A+" },
+				new User { Id = 2, Name = "Jane Smith", Password = "password456", Role = "Admin", Age = 30, BloodGroup="B+" }
 			);
 
 			modelBuilder.Entity<Admin>().HasData(
-				new Admin { Id = 4, Name = "David", Age = 30, BloodGroup = "B-", Password = "adminpassword1", Role = "Admin", AdminLevel = 1 },
-				new Admin { Id = 5, Name = "Eve", Age = 35, BloodGroup = "AB+", Password = "adminpassword2", Role = "Admin", AdminLevel = 2 }
+				new Admin { Id = 2, AdminLevel = 1 }
 			);
+
+			modelBuilder.Entity<Student>().HasData(
+				new Student { Id = 1, DepartmentId = 1, SemesterNumber=3 }
+			);		
+
 		}
+
+
 
 	}
 }

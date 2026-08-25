@@ -3,20 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\Anik\\Desktop\\Advance-.Net\\Lab_Task\\53728\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{23D4FFBD-B1C6-230C-0A71-BEA4BD9F5664}|53728.csproj|c:\\users\\anik\\desktop\\advance-.net\\lab_task\\53728\\views\\employee\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{23D4FFBD-B1C6-230C-0A71-BEA4BD9F5664}|53728.csproj|solutionrelative:views\\employee\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{23D4FFBD-B1C6-230C-0A71-BEA4BD9F5664}|53728.csproj|c:\\users\\anik\\desktop\\advance-.net\\lab_task\\53728\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{23D4FFBD-B1C6-230C-0A71-BEA4BD9F5664}|53728.csproj|solutionrelative:views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{23D4FFBD-B1C6-230C-0A71-BEA4BD9F5664}|53728.csproj|c:\\users\\anik\\desktop\\advance-.net\\lab_task\\53728\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{23D4FFBD-B1C6-230C-0A71-BEA4BD9F5664}|53728.csproj|solutionrelative:controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{23D4FFBD-B1C6-230C-0A71-BEA4BD9F5664}|53728.csproj|c:\\users\\anik\\desktop\\advance-.net\\lab_task\\53728\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{23D4FFBD-B1C6-230C-0A71-BEA4BD9F5664}|53728.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{23D4FFBD-B1C6-230C-0A71-BEA4BD9F5664}|53728.csproj|c:\\users\\anik\\desktop\\advance-.net\\lab_task\\53728\\views\\employee\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{23D4FFBD-B1C6-230C-0A71-BEA4BD9F5664}|53728.csproj|solutionrelative:views\\employee\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{23D4FFBD-B1C6-230C-0A71-BEA4BD9F5664}|53728.csproj|c:\\users\\anik\\desktop\\advance-.net\\lab_task\\53728\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{23D4FFBD-B1C6-230C-0A71-BEA4BD9F5664}|53728.csproj|solutionrelative:views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{23D4FFBD-B1C6-230C-0A71-BEA4BD9F5664}|53728.csproj|c:\\users\\anik\\desktop\\advance-.net\\lab_task\\53728\\data\\companydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -34,7 +34,7 @@
       "DocumentGroups": [
         {
           "DockedHeight": 167,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -42,7 +42,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "_ViewImports.cshtml",
               "DocumentMoniker": "C:\\Users\\Anik\\Desktop\\Advance-.Net\\Lab_Task\\53728\\Views\\_ViewImports.cshtml",
               "RelativeDocumentMoniker": "Views\\_ViewImports.cshtml",
@@ -54,7 +54,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\Anik\\Desktop\\Advance-.Net\\Lab_Task\\53728\\Views\\Employee\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Employee\\Index.cshtml",
@@ -67,19 +67,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "EmployeeController.cs",
               "DocumentMoniker": "C:\\Users\\Anik\\Desktop\\Advance-.Net\\Lab_Task\\53728\\Controllers\\EmployeeController.cs",
               "RelativeDocumentMoniker": "Controllers\\EmployeeController.cs",
               "ToolTip": "C:\\Users\\Anik\\Desktop\\Advance-.Net\\Lab_Task\\53728\\Controllers\\EmployeeController.cs",
               "RelativeToolTip": "Controllers\\EmployeeController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAASAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-28T05:22:30.732Z"
+              "WhenOpened": "2026-07-28T05:22:30.732Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Anik\\Desktop\\Advance-.Net\\Lab_Task\\53728\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
@@ -87,7 +88,8 @@
               "RelativeToolTip": "Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-28T05:19:12.016Z"
+              "WhenOpened": "2026-07-28T05:19:12.016Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",

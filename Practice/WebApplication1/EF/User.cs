@@ -21,7 +21,7 @@ namespace WebApplication1.EF
 		public string BloodGroup { get; set; }
 
 		[Required]
-		public string Role { get; set; }
+		public string Role { get; set; }		
 
 	}
 }

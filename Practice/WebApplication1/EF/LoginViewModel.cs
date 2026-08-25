@@ -2,12 +2,13 @@
 
 namespace WebApplication1.EF
 {
-    public class ViewModel
+    public class LoginViewModel
     {   
         [Required]
         public int Id { get; set; }
 
 		[Required, StringLength(50), MinLength(5, ErrorMessage = "Not less than 5 char")]
-		public string Password { get; set; }
-    }
+		public string Password { get; set; }        
+
+	}
 }

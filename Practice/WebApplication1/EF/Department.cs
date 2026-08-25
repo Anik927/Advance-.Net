@@ -1,4 +1,5 @@
 ﻿using System.ComponentModel.DataAnnotations;
+using Microsoft.AspNetCore.Mvc.ModelBinding.Validation;
 
 namespace WebApplication1.EF
 {
@@ -10,7 +11,8 @@ namespace WebApplication1.EF
         [Required,StringLength(50)]
         public string Name { get; set; }
 
-        public List<Student> Students { get; set; }
+		[ValidateNever]
+		public List<Student> Students { get; set; }
 
     }
 }

@@ -2,12 +2,10 @@
 
 #nullable disable
 
-#pragma warning disable CA1814 // Prefer jagged arrays over multidimensional
-
 namespace WebApplication1.Migrations
 {
     /// <inheritdoc />
-    public partial class InitialTPT : Migration
+    public partial class addTable : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
@@ -29,7 +27,7 @@ namespace WebApplication1.Migrations
                 name: "Users",
                 columns: table => new
                 {
-                    AdminId = table.Column<int>(type: "int", nullable: false)
+                    Id = table.Column<int>(type: "int", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
                     Password = table.Column<string>(type: "nvarchar(50)", maxLength: 50, nullable: false),
                     Name = table.Column<string>(type: "nvarchar(50)", maxLength: 50, nullable: false),
@@ -39,24 +37,24 @@ namespace WebApplication1.Migrations
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_Users", x => x.AdminId);
+                    table.PrimaryKey("PK_Users", x => x.Id);
                 });
 
             migrationBuilder.CreateTable(
                 name: "Admins",
                 columns: table => new
                 {
-                    AdminId = table.Column<int>(type: "int", nullable: false),
+                    Id = table.Column<int>(type: "int", nullable: false),
                     AdminLevel = table.Column<int>(type: "int", nullable: false)
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_Admins", x => x.AdminId);
+                    table.PrimaryKey("PK_Admins", x => x.Id);
                     table.ForeignKey(
-                        name: "FK_Admins_Users_AdminId",
-                        column: x => x.AdminId,
+                        name: "FK_Admins_Users_Id",
+                        column: x => x.Id,
                         principalTable: "Users",
-                        principalColumn: "AdminId",
+                        principalColumn: "Id",
                         onDelete: ReferentialAction.Cascade);
                 });
 
@@ -64,13 +62,13 @@ namespace WebApplication1.Migrations
                 name: "Students",
                 columns: table => new
                 {
-                    AdminId = table.Column<int>(type: "int", nullable: false),
+                    Id = table.Column<int>(type: "int", nullable: false),
                     SemesterNumber = table.Column<int>(type: "int", nullable: false),
                     DepartmentId = table.Column<int>(type: "int", nullable: false)
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_Students", x => x.AdminId);
+                    table.PrimaryKey("PK_Students", x => x.Id);
                     table.ForeignKey(
                         name: "FK_Students_Departments_DepartmentId",
                         column: x => x.DepartmentId,
@@ -78,52 +76,11 @@ namespace WebApplication1.Migrations
                         principalColumn: "Id",
                         onDelete: ReferentialAction.Cascade);
                     table.ForeignKey(
-                        name: "FK_Students_Users_AdminId",
-                        column: x => x.AdminId,
+                        name: "FK_Students_Users_Id",
+                        column: x => x.Id,
                         principalTable: "Users",
-                        principalColumn: "AdminId",
+                        principalColumn: "Id",
                         onDelete: ReferentialAction.Cascade);
-                });
-
-            migrationBuilder.InsertData(
-                table: "Departments",
-                columns: new[] { "Id", "Name" },
-                values: new object[,]
-                {
-                    { 1, "Computer Science" },
-                    { 2, "Mathematics" },
-                    { 3, "Physics" }
-                });
-
-            migrationBuilder.InsertData(
-                table: "Users",
-                columns: new[] { "AdminId", "Age", "BloodGroup", "Name", "Password", "Role" },
-                values: new object[,]
-                {
-                    { 1, 20, "O-", "Alice", "password1", "Student" },
-                    { 2, 22, "A+", "Bob", "password2", "Student" },
-                    { 3, 21, "O+", "Charlie", "password3", "Student" },
-                    { 4, 30, "B-", "David", "adminpassword1", "Admin" },
-                    { 5, 35, "AB+", "Eve", "adminpassword2", "Admin" }
-                });
-
-            migrationBuilder.InsertData(
-                table: "Admins",
-                columns: new[] { "AdminId", "AdminLevel" },
-                values: new object[,]
-                {
-                    { 4, 1 },
-                    { 5, 2 }
-                });
-
-            migrationBuilder.InsertData(
-                table: "Students",
-                columns: new[] { "AdminId", "DepartmentId", "SemesterNumber" },
-                values: new object[,]
-                {
-                    { 1, 1, 3 },
-                    { 2, 2, 5 },
-                    { 3, 3, 1 }
                 });
 
             migrationBuilder.CreateIndex(

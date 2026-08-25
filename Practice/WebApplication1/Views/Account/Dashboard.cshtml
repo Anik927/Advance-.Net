@@ -1,0 +1,27 @@
+﻿@{
+	ViewData["Title"] = "Dashboard";
+}
+
+<h2>Welcome, @ViewBag.Name!</h2>
+<p>You are logged in as a @ViewBag.Role.</p>		
+
+@if (ViewBag.Role == "Admin")
+{
+	<div class="mb-3">
+
+		<p>Admin Level: @ViewBag.AdminLevel</p>	
+		<form method="post">
+			<div class="mb-3">
+				<a  asp-controller="Manage" asp-action="Departments" class="btn btn-primary">Show Departments</a> <br /><br />
+				<a  asp-controller="Manage" asp-action="Students" class="btn btn-primary">Show Students</a>
+			</div>
+		</form> 
+	</div>
+}
+else if (ViewBag.Role == "Student")
+{	
+	<p>Semester: @ViewBag.SemesterNumber</p>
+	<p>Department ID: @ViewBag.DepartmentId</p>
+}
+
+

@@ -11,8 +11,8 @@ using WebApplication1.EF;
 namespace WebApplication1.Migrations
 {
     [DbContext(typeof(CMSDbContext))]
-    [Migration("20260822165807_UserAdded4")]
-    partial class UserAdded4
+    [Migration("20260824030015_DepartmentAdded")]
+    partial class DepartmentAdded
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -23,6 +23,26 @@ namespace WebApplication1.Migrations
                 .HasAnnotation("Relational:MaxIdentifierLength", 128);
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
+
+            modelBuilder.Entity("WebApplication1.EF.Admin", b =>
+                {
+                    b.Property<int>("Id")
+                        .HasColumnType("int");
+
+                    b.Property<int>("AdminLevel")
+                        .HasColumnType("int");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Admins");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = 2,
+                            AdminLevel = 1
+                        });
+                });
 
             modelBuilder.Entity("WebApplication1.EF.Department", b =>
                 {
@@ -50,12 +70,38 @@ namespace WebApplication1.Migrations
                         new
                         {
                             Id = 2,
-                            Name = "Mathematics"
+                            Name = "Electrical Engineering"
                         },
                         new
                         {
                             Id = 3,
-                            Name = "Physics"
+                            Name = "Mechanical Engineering"
+                        });
+                });
+
+            modelBuilder.Entity("WebApplication1.EF.Student", b =>
+                {
+                    b.Property<int>("Id")
+                        .HasColumnType("int");
+
+                    b.Property<int>("DepartmentId")
+                        .HasColumnType("int");
+
+                    b.Property<int>("SemesterNumber")
+                        .HasColumnType("int");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("DepartmentId");
+
+                    b.ToTable("Students");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = 1,
+                            DepartmentId = 1,
+                            SemesterNumber = 3
                         });
                 });
 
@@ -90,100 +136,38 @@ namespace WebApplication1.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Users", (string)null);
-
-                    b.UseTptMappingStrategy();
-                });
-
-            modelBuilder.Entity("WebApplication1.EF.Admin", b =>
-                {
-                    b.HasBaseType("WebApplication1.EF.User");
-
-                    b.Property<int>("AdminLevel")
-                        .HasColumnType("int");
-
-                    b.ToTable("Admins", (string)null);
-
-                    b.HasData(
-                        new
-                        {
-                            Id = 4,
-                            Age = 30,
-                            BloodGroup = "B-",
-                            Name = "David",
-                            Password = "adminpassword1",
-                            Role = "Admin",
-                            AdminLevel = 1
-                        },
-                        new
-                        {
-                            Id = 5,
-                            Age = 35,
-                            BloodGroup = "AB+",
-                            Name = "Eve",
-                            Password = "adminpassword2",
-                            Role = "Admin",
-                            AdminLevel = 2
-                        });
-                });
-
-            modelBuilder.Entity("WebApplication1.EF.Student", b =>
-                {
-                    b.HasBaseType("WebApplication1.EF.User");
-
-                    b.Property<int>("DepartmentId")
-                        .HasColumnType("int");
-
-                    b.Property<int>("SemesterNumber")
-                        .HasColumnType("int");
-
-                    b.HasIndex("DepartmentId");
-
-                    b.ToTable("Students", (string)null);
+                    b.ToTable("Users");
 
                     b.HasData(
                         new
                         {
                             Id = 1,
                             Age = 20,
-                            BloodGroup = "O-",
-                            Name = "Alice",
-                            Password = "password1",
-                            Role = "Student",
-                            DepartmentId = 1,
-                            SemesterNumber = 3
+                            BloodGroup = "A+",
+                            Name = "John Doe",
+                            Password = "password123",
+                            Role = "Student"
                         },
                         new
                         {
                             Id = 2,
-                            Age = 22,
-                            BloodGroup = "A+",
-                            Name = "Bob",
-                            Password = "password2",
-                            Role = "Student",
-                            DepartmentId = 2,
-                            SemesterNumber = 5
-                        },
-                        new
-                        {
-                            Id = 3,
-                            Age = 21,
-                            BloodGroup = "O+",
-                            Name = "Charlie",
-                            Password = "password3",
-                            Role = "Student",
-                            DepartmentId = 3,
-                            SemesterNumber = 1
+                            Age = 30,
+                            BloodGroup = "B+",
+                            Name = "Jane Smith",
+                            Password = "password456",
+                            Role = "Admin"
                         });
                 });
 
             modelBuilder.Entity("WebApplication1.EF.Admin", b =>
                 {
-                    b.HasOne("WebApplication1.EF.User", null)
+                    b.HasOne("WebApplication1.EF.User", "User")
                         .WithOne()
                         .HasForeignKey("WebApplication1.EF.Admin", "Id")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
+
+                    b.Navigation("User");
                 });
 
             modelBuilder.Entity("WebApplication1.EF.Student", b =>
@@ -194,13 +178,15 @@ namespace WebApplication1.Migrations
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.HasOne("WebApplication1.EF.User", null)
+                    b.HasOne("WebApplication1.EF.User", "User")
                         .WithOne()
                         .HasForeignKey("WebApplication1.EF.Student", "Id")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
                     b.Navigation("Department");
+
+                    b.Navigation("User");
                 });
 
             modelBuilder.Entity("WebApplication1.EF.Department", b =>

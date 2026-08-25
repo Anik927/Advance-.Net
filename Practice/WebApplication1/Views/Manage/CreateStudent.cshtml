@@ -1,0 +1,67 @@
+﻿@model Student
+@{
+	ViewData["Title"] = "Create Student";	
+}
+
+<h2>Create Student</h2>
+
+<div asp-validation-summary="All" class="text-danger"></div>
+
+<form method="post" asp-controller="Manage" asp-action="CreateStudent">
+	<div class="mb-3">
+		<label asp-for="User.Id">ID:</label>
+		<input asp-for="User.Id" class="form-control" readonly="readonly"/>
+		<span asp-validation-for="User.Id" class="text-danger d-block"></span>
+
+		<label asp-for="User.Name">Name:</label>
+		<input asp-for="User.Name" class="form-control" />
+		<span asp-validation-for="User.Name" class="text-danger d-block"></span>
+		@if (Model.Id == 0)
+		{
+			<label asp-for="User.Password">Password:</label>
+			<input asp-for="User.Password" type="password" class="form-control" />
+			<span asp-validation-for="User.Password" class="text-danger d-block"></span>				
+		}
+		else
+		{						
+			<input asp-for="User.Password" type="hidden" class="form-control"/>
+			<span asp-validation-for="User.Password" class="text-danger d-block"></span>
+		}
+		
+		<label asp-for="User.Role">Role:</label>
+		<select asp-for="User.Role" class="form-control">
+			<option value="Student">Student</option>
+		</select>
+		<span asp-validation-for="User.Role" class="text-danger d-block"></span>
+
+		<label asp-for="User.Age">Age:</label>
+		<input asp-for="User.Age" class="form-control" />
+		<span asp-validation-for="User.Age" class="text-danger d-block"></span>
+
+		<label asp-for="User.BloodGroup">Blood Group:</label>
+		<input asp-for="User.BloodGroup" class="form-control" />
+		<span asp-validation-for="User.BloodGroup" class="text-danger d-block"></span>
+
+		<label asp-for="SemesterNumber">Semester Number:</label>
+		<input asp-for="SemesterNumber" class="form-control" />
+		<span asp-validation-for="SemesterNumber" class="text-danger d-block"></span>
+
+		<label asp-for="DepartmentId">Department ID:</label>
+		<input asp-for="DepartmentId" class="form-control" />
+		<span asp-validation-for="DepartmentId" class="text-danger d-block"></span>
+	</div>
+	@if (Model.Id == 0)
+		{
+			<div class="mb-3">
+				<button type="submit" class="btn btn-primary" asp-controller="Manage" asp-action="CreateStudent">Create</button>
+			</div>
+		}
+	else
+		{
+			<div class="mb-3">
+			<button type="submit" class="btn btn-primary" asp-controller="Manage" asp-action="EditStudent" asp-route-id="@Model.Id">Save</button>
+			</div>
+		}
+
+
+</form>
