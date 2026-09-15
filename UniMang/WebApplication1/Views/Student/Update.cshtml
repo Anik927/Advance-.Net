@@ -1,0 +1,45 @@
+﻿@model StudentUpdateDTO
+@{
+	ViewData["Title"] = "Edit Student";
+}
+<form method="post" asp-action="Update">
+
+	<div asp-validation-summary="All" class="text-danger" role="alert"></div>
+
+	<div class="mb-3">
+		<label asp-for="Id">ID:</label>
+		<input asp-for="Id" class="form-control" readonly />
+		<span asp-validation-for="Id" class="text-danger"></span>
+	</div>
+
+	<div class="mb-3">
+		<label asp-for="Name">Name:</label>
+		<input asp-for="Name" class="form-control" />
+		<span asp-validation-for="Name" class="text-danger"></span>
+	</div>
+
+	<div class="mb-3">
+		<label asp-for="Email">Email:</label>
+		<input asp-for="Email" class="form-control" />
+		<span asp-validation-for="Email" class="text-danger"></span>
+	</div>
+
+	<div class="mb-3">
+		<label asp-for="DateOfBirth">Date of Birth:</label>
+		<input asp-for="DateOfBirth" type="date" class="form-control" />
+		<span asp-validation-for="DateOfBirth" class="text-danger"></span>
+	</div>
+
+	<div class="mb-3">
+		<label asp-for="CourseId" name="CourseId">Course:</label>
+		<select asp-for="CourseId" name="CourseId" class="form-control">
+			<option value="">Select a course</option>
+			@foreach (var course in ViewBag.Courses)
+			{
+				<option value="@course.Id">@course.Title</option>
+			}
+		</select>
+		<span asp-validation-for="CourseId" class="text-danger"></span>
+	</div>
+	<button type="submit" class="btn btn-primary form">Update Student</button>
+</form>

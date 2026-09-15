@@ -1,0 +1,44 @@
+[
+  {
+    "ContainingType": "WebApplication1.Controllers.StudentsController",
+    "Method": "CreateStudent",
+    "RelativePath": "api/Students/CreateStudent",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "studentCreateDTO",
+        "Type": "WebApplication1.DTOs.StudentCreateDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebApplication1.Controllers.StudentsController",
+    "Method": "GetStudents",
+    "RelativePath": "api/Students/GetStudents",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebApplication1.Controllers.StudentsController",
+    "Method": "GetStudents",
+    "RelativePath": "api/Students/GetStudents/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

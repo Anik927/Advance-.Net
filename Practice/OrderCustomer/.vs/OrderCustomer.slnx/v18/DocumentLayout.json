@@ -1,0 +1,202 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Admin\\Desktop\\Advance-.Net\\Practice\\OrderCustomer\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{AC8CF7AD-A1B0-3184-143F-205DFA355A85}|OrderCustomer.csproj|c:\\users\\admin\\desktop\\advance-.net\\practice\\ordercustomer\\controllers\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC8CF7AD-A1B0-3184-143F-205DFA355A85}|OrderCustomer.csproj|solutionrelative:controllers\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC8CF7AD-A1B0-3184-143F-205DFA355A85}|OrderCustomer.csproj|c:\\users\\admin\\desktop\\advance-.net\\practice\\ordercustomer\\dtos\\customerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC8CF7AD-A1B0-3184-143F-205DFA355A85}|OrderCustomer.csproj|solutionrelative:dtos\\customerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC8CF7AD-A1B0-3184-143F-205DFA355A85}|OrderCustomer.csproj|c:\\users\\admin\\desktop\\advance-.net\\practice\\ordercustomer\\dtos\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC8CF7AD-A1B0-3184-143F-205DFA355A85}|OrderCustomer.csproj|solutionrelative:dtos\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC8CF7AD-A1B0-3184-143F-205DFA355A85}|OrderCustomer.csproj|c:\\users\\admin\\desktop\\advance-.net\\practice\\ordercustomer\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC8CF7AD-A1B0-3184-143F-205DFA355A85}|OrderCustomer.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC8CF7AD-A1B0-3184-143F-205DFA355A85}|OrderCustomer.csproj|c:\\users\\admin\\desktop\\advance-.net\\practice\\ordercustomer\\ef\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC8CF7AD-A1B0-3184-143F-205DFA355A85}|OrderCustomer.csproj|solutionrelative:ef\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC8CF7AD-A1B0-3184-143F-205DFA355A85}|OrderCustomer.csproj|c:\\users\\admin\\desktop\\advance-.net\\practice\\ordercustomer\\dtos\\ordercreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC8CF7AD-A1B0-3184-143F-205DFA355A85}|OrderCustomer.csproj|solutionrelative:dtos\\ordercreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC8CF7AD-A1B0-3184-143F-205DFA355A85}|OrderCustomer.csproj|c:\\users\\admin\\desktop\\advance-.net\\practice\\ordercustomer\\dtos\\customercreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC8CF7AD-A1B0-3184-143F-205DFA355A85}|OrderCustomer.csproj|solutionrelative:dtos\\customercreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC8CF7AD-A1B0-3184-143F-205DFA355A85}|OrderCustomer.csproj|c:\\users\\admin\\desktop\\advance-.net\\practice\\ordercustomer\\dtos\\customerupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC8CF7AD-A1B0-3184-143F-205DFA355A85}|OrderCustomer.csproj|solutionrelative:dtos\\customerupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC8CF7AD-A1B0-3184-143F-205DFA355A85}|OrderCustomer.csproj|c:\\users\\admin\\desktop\\advance-.net\\practice\\ordercustomer\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC8CF7AD-A1B0-3184-143F-205DFA355A85}|OrderCustomer.csproj|solutionrelative:controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC8CF7AD-A1B0-3184-143F-205DFA355A85}|OrderCustomer.csproj|c:\\users\\admin\\desktop\\advance-.net\\practice\\ordercustomer\\dtos\\orderdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC8CF7AD-A1B0-3184-143F-205DFA355A85}|OrderCustomer.csproj|solutionrelative:dtos\\orderdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CustomerController.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Advance-.Net\\Practice\\OrderCustomer\\Controllers\\CustomerController.cs",
+              "RelativeDocumentMoniker": "Controllers\\CustomerController.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\Advance-.Net\\Practice\\OrderCustomer\\Controllers\\CustomerController.cs",
+              "RelativeToolTip": "Controllers\\CustomerController.cs",
+              "ViewState": "AgIAAA0AAACAmZmZmZkvwBMAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-31T18:57:39.554Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CustomerDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Advance-.Net\\Practice\\OrderCustomer\\DTOs\\CustomerDTO.cs",
+              "RelativeDocumentMoniker": "DTOs\\CustomerDTO.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\Advance-.Net\\Practice\\OrderCustomer\\DTOs\\CustomerDTO.cs",
+              "RelativeToolTip": "DTOs\\CustomerDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-31T17:44:03.608Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MappingProfile.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Advance-.Net\\Practice\\OrderCustomer\\DTOs\\MappingProfile.cs",
+              "RelativeDocumentMoniker": "DTOs\\MappingProfile.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\Advance-.Net\\Practice\\OrderCustomer\\DTOs\\MappingProfile.cs",
+              "RelativeToolTip": "DTOs\\MappingProfile.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-31T18:47:12.033Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Advance-.Net\\Practice\\OrderCustomer\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\Advance-.Net\\Practice\\OrderCustomer\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-31T18:56:52.2Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Customer.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Advance-.Net\\Practice\\OrderCustomer\\EF\\Customer.cs",
+              "RelativeDocumentMoniker": "EF\\Customer.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\Advance-.Net\\Practice\\OrderCustomer\\EF\\Customer.cs",
+              "RelativeToolTip": "EF\\Customer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-31T18:13:28.691Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "OrderCreateDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Advance-.Net\\Practice\\OrderCustomer\\DTOs\\OrderCreateDTO.cs",
+              "RelativeDocumentMoniker": "DTOs\\OrderCreateDTO.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\Advance-.Net\\Practice\\OrderCustomer\\DTOs\\OrderCreateDTO.cs",
+              "RelativeToolTip": "DTOs\\OrderCreateDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-31T17:44:29.176Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CustomerCreateDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Advance-.Net\\Practice\\OrderCustomer\\DTOs\\CustomerCreateDTO.cs",
+              "RelativeDocumentMoniker": "DTOs\\CustomerCreateDTO.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\Advance-.Net\\Practice\\OrderCustomer\\DTOs\\CustomerCreateDTO.cs",
+              "RelativeToolTip": "DTOs\\CustomerCreateDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-31T17:44:14.07Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CustomerUpdateDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Advance-.Net\\Practice\\OrderCustomer\\DTOs\\CustomerUpdateDTO.cs",
+              "RelativeDocumentMoniker": "DTOs\\CustomerUpdateDTO.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\Advance-.Net\\Practice\\OrderCustomer\\DTOs\\CustomerUpdateDTO.cs",
+              "RelativeToolTip": "DTOs\\CustomerUpdateDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-31T20:44:35.003Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "OrderController.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Advance-.Net\\Practice\\OrderCustomer\\Controllers\\OrderController.cs",
+              "RelativeDocumentMoniker": "Controllers\\OrderController.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\Advance-.Net\\Practice\\OrderCustomer\\Controllers\\OrderController.cs",
+              "RelativeToolTip": "Controllers\\OrderController.cs",
+              "ViewState": "AgIAAAYAAABgZmZmZmYkwBsAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-31T18:57:55.907Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "OrderDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Advance-.Net\\Practice\\OrderCustomer\\DTOs\\OrderDTO.cs",
+              "RelativeDocumentMoniker": "DTOs\\OrderDTO.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\Advance-.Net\\Practice\\OrderCustomer\\DTOs\\OrderDTO.cs",
+              "RelativeToolTip": "DTOs\\OrderDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-31T17:44:21.862Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 1083,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

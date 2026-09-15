@@ -1,0 +1,140 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Admin\\Desktop\\Advance-.Net\\Practice\\LabFinal2_53728\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E2FD774B-70C6-7AE5-C3EA-D84788C156F9}|LabFinal2_53728.csproj|c:\\users\\admin\\desktop\\advance-.net\\practice\\labfinal2_53728\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E2FD774B-70C6-7AE5-C3EA-D84788C156F9}|LabFinal2_53728.csproj|solutionrelative:controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Admin\\Desktop\\Advance-.Net\\Practice\\LabFinal2_53728\\Migrations\\20260901045606_intialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20260901045606_intialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2FD774B-70C6-7AE5-C3EA-D84788C156F9}|LabFinal2_53728.csproj|c:\\users\\admin\\desktop\\advance-.net\\practice\\labfinal2_53728\\ef\\retaildbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E2FD774B-70C6-7AE5-C3EA-D84788C156F9}|LabFinal2_53728.csproj|solutionrelative:ef\\retaildbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2FD774B-70C6-7AE5-C3EA-D84788C156F9}|LabFinal2_53728.csproj|c:\\users\\admin\\desktop\\advance-.net\\practice\\labfinal2_53728\\ef\\products.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E2FD774B-70C6-7AE5-C3EA-D84788C156F9}|LabFinal2_53728.csproj|solutionrelative:ef\\products.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2FD774B-70C6-7AE5-C3EA-D84788C156F9}|LabFinal2_53728.csproj|c:\\users\\admin\\desktop\\advance-.net\\practice\\labfinal2_53728\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E2FD774B-70C6-7AE5-C3EA-D84788C156F9}|LabFinal2_53728.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2FD774B-70C6-7AE5-C3EA-D84788C156F9}|LabFinal2_53728.csproj|c:\\users\\admin\\desktop\\advance-.net\\practice\\labfinal2_53728\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{E2FD774B-70C6-7AE5-C3EA-D84788C156F9}|LabFinal2_53728.csproj|solutionrelative:appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "RetailDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Advance-.Net\\Practice\\LabFinal2_53728\\EF\\RetailDbContext.cs",
+              "RelativeDocumentMoniker": "EF\\RetailDbContext.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\Advance-.Net\\Practice\\LabFinal2_53728\\EF\\RetailDbContext.cs",
+              "RelativeToolTip": "EF\\RetailDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAABeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-01T04:49:51.552Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "20260901045606_intialcreate.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Advance-.Net\\Practice\\LabFinal2_53728\\Migrations\\20260901045606_intialcreate.cs",
+              "RelativeDocumentMoniker": "Migrations\\20260901045606_intialcreate.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\Advance-.Net\\Practice\\LabFinal2_53728\\Migrations\\20260901045606_intialcreate.cs",
+              "RelativeToolTip": "Migrations\\20260901045606_intialcreate.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-01T04:56:07.056Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ProductsController.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Advance-.Net\\Practice\\LabFinal2_53728\\Controllers\\ProductsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ProductsController.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\Advance-.Net\\Practice\\LabFinal2_53728\\Controllers\\ProductsController.cs*",
+              "RelativeToolTip": "Controllers\\ProductsController.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-01T04:57:28.793Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Products.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Advance-.Net\\Practice\\LabFinal2_53728\\EF\\Products.cs",
+              "RelativeDocumentMoniker": "EF\\Products.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\Advance-.Net\\Practice\\LabFinal2_53728\\EF\\Products.cs",
+              "RelativeToolTip": "EF\\Products.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-01T04:50:48.936Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Advance-.Net\\Practice\\LabFinal2_53728\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\Advance-.Net\\Practice\\LabFinal2_53728\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-01T04:35:28.726Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Advance-.Net\\Practice\\LabFinal2_53728\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "appsettings.Development.json",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\Advance-.Net\\Practice\\LabFinal2_53728\\appsettings.Development.json",
+              "RelativeToolTip": "appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-09-01T04:39:27.841Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 1083,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

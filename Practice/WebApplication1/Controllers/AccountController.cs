@@ -60,8 +60,8 @@ namespace WebApplication1.Controllers
 		{
 			var id= int.Parse(User.FindFirst(ClaimTypes.NameIdentifier)?.Value);
 			var name = User.FindFirst(ClaimTypes.Name)?.Value;
-			var role = User.FindFirst(ClaimTypes.Role)?.Value;
-
+			//var role = User.FindFirst(ClaimTypes.Role)?.Value;
+			var role = ClaimTypes.Role;
 			ViewBag.Name = name;
 			ViewBag.Role = role;
 

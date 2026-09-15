@@ -1,0 +1,48 @@
+﻿@model List<StudentDTO>
+@{
+	ViewData["Title"] = "Student List";
+	var Text = Context.Session.GetString("searchName") ?? "No search Yet";
+}
+
+<h2>Students Details</h2>
+
+
+<form method="get" asp-controller="Student" asp-action="Search">
+	<label for="searchName">Search Student</label>
+	<input type="text" id="searchName" name="searchName" placeholder="Enter student name..." />
+	<button type="submit">Search</button><br />
+	<p>User Details: @Context.Session.GetString("Message")</p>
+	<p>Last Search: @Text</p>
+	<p>Session Count by Session: @Context.Session.GetInt32("Count")</p>
+	<p>Last Visit:@Context.Request.Cookies["LastVisit"]</p>
+	<p>Session count by cookies:@Context.Request.Cookies["VisitCount"]</p>
+</form>
+
+<a asp-action="Create" class="btn btn-primary">Add New Student</a>
+
+<table class="table table-bordered">
+	<thead>
+		<tr>
+			<th>Name</th>	
+			<th>Email</th>	
+			<th>Date Of Birth</th>	
+			<th>Course ID</th>	
+			<th>Course Name</th>	
+			<th>Actions</th>
+		</tr>
+		@foreach (var student in Model)
+		{
+		<tr>
+			<td>@student.Name</td>
+			<td>@student.Email</td>			
+			<td>@student.DateOfBirth.ToShortDateString()</td>
+			<td>@student.CourseId</td>
+			<td>@student.Course.Title</td>
+			<td>
+				<a asp-action="Update" asp-route-id="@student.Id" class="btn btn-sm btn-outline-primary">Edit</a>
+				<a asp-action="Delete" asp-route-id="@student.Id" class="btn btn-sm btn-outline-danger">Delete</a>
+			</td>
+		</tr>
+		}
+	</thead>
+</table>

@@ -1,0 +1,9 @@
+﻿@using System.Security.Claims
+
+@{
+    ViewBag.Title = "Dashboard";
+}
+
+<h2>Dashboard</h2>
+<h3>Welcome, @User.Identity.Name!</h3>
+<p>You are now logged in. Your Role is: @User.FindFirstValue(ClaimTypes.Role)</p>
