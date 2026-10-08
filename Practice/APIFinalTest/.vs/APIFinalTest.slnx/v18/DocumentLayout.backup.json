@@ -1,0 +1,200 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Admin\\Desktop\\Advance-.Net\\Practice\\APIFinalTest\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{843A18D7-8C2E-5E48-AABD-8C32E0779E1F}|APIFinalTest.csproj|c:\\users\\admin\\desktop\\advance-.net\\practice\\apifinaltest\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{843A18D7-8C2E-5E48-AABD-8C32E0779E1F}|APIFinalTest.csproj|solutionrelative:properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{843A18D7-8C2E-5E48-AABD-8C32E0779E1F}|APIFinalTest.csproj|c:\\users\\admin\\desktop\\advance-.net\\practice\\apifinaltest\\ef\\doctor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{843A18D7-8C2E-5E48-AABD-8C32E0779E1F}|APIFinalTest.csproj|solutionrelative:ef\\doctor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{843A18D7-8C2E-5E48-AABD-8C32E0779E1F}|APIFinalTest.csproj|c:\\users\\admin\\desktop\\advance-.net\\practice\\apifinaltest\\controllers\\doctorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{843A18D7-8C2E-5E48-AABD-8C32E0779E1F}|APIFinalTest.csproj|solutionrelative:controllers\\doctorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{843A18D7-8C2E-5E48-AABD-8C32E0779E1F}|APIFinalTest.csproj|c:\\users\\admin\\desktop\\advance-.net\\practice\\apifinaltest\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{843A18D7-8C2E-5E48-AABD-8C32E0779E1F}|APIFinalTest.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{843A18D7-8C2E-5E48-AABD-8C32E0779E1F}|APIFinalTest.csproj|c:\\users\\admin\\desktop\\advance-.net\\practice\\apifinaltest\\ef\\apitestdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{843A18D7-8C2E-5E48-AABD-8C32E0779E1F}|APIFinalTest.csproj|solutionrelative:ef\\apitestdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{843A18D7-8C2E-5E48-AABD-8C32E0779E1F}|APIFinalTest.csproj|c:\\users\\admin\\desktop\\advance-.net\\practice\\apifinaltest\\migrations\\20260915185618_intialcreation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{843A18D7-8C2E-5E48-AABD-8C32E0779E1F}|APIFinalTest.csproj|solutionrelative:migrations\\20260915185618_intialcreation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{843A18D7-8C2E-5E48-AABD-8C32E0779E1F}|APIFinalTest.csproj|c:\\users\\admin\\desktop\\advance-.net\\practice\\apifinaltest\\ef\\patient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{843A18D7-8C2E-5E48-AABD-8C32E0779E1F}|APIFinalTest.csproj|solutionrelative:ef\\patient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{843A18D7-8C2E-5E48-AABD-8C32E0779E1F}|APIFinalTest.csproj|c:\\users\\admin\\desktop\\advance-.net\\practice\\apifinaltest\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{843A18D7-8C2E-5E48-AABD-8C32E0779E1F}|APIFinalTest.csproj|solutionrelative:appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{843A18D7-8C2E-5E48-AABD-8C32E0779E1F}|APIFinalTest.csproj|c:\\users\\admin\\desktop\\advance-.net\\practice\\apifinaltest\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{843A18D7-8C2E-5E48-AABD-8C32E0779E1F}|APIFinalTest.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{843A18D7-8C2E-5E48-AABD-8C32E0779E1F}|APIFinalTest.csproj|c:\\users\\admin\\desktop\\advance-.net\\practice\\apifinaltest\\apifinaltest.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{843A18D7-8C2E-5E48-AABD-8C32E0779E1F}|APIFinalTest.csproj|solutionrelative:apifinaltest.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DoctorController.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Advance-.Net\\Practice\\APIFinalTest\\Controllers\\DoctorController.cs",
+              "RelativeDocumentMoniker": "Controllers\\DoctorController.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\Advance-.Net\\Practice\\APIFinalTest\\Controllers\\DoctorController.cs",
+              "RelativeToolTip": "Controllers\\DoctorController.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAmwBkAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-15T18:57:14.749Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Advance-.Net\\Practice\\APIFinalTest\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\Advance-.Net\\Practice\\APIFinalTest\\Properties\\launchSettings.json*",
+              "RelativeToolTip": "Properties\\launchSettings.json*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-09-15T18:36:20.344Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Advance-.Net\\Practice\\APIFinalTest\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\Advance-.Net\\Practice\\APIFinalTest\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAABEAAABAMzMzMzMbwBoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-15T18:35:28.942Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Doctor.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Advance-.Net\\Practice\\APIFinalTest\\EF\\Doctor.cs",
+              "RelativeDocumentMoniker": "EF\\Doctor.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\Advance-.Net\\Practice\\APIFinalTest\\EF\\Doctor.cs",
+              "RelativeToolTip": "EF\\Doctor.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-15T18:46:44.03Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "APITestDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Advance-.Net\\Practice\\APIFinalTest\\EF\\APITestDbContext.cs",
+              "RelativeDocumentMoniker": "EF\\APITestDbContext.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\Advance-.Net\\Practice\\APIFinalTest\\EF\\APITestDbContext.cs",
+              "RelativeToolTip": "EF\\APITestDbContext.cs",
+              "ViewState": "AgIAAAgAAAAANDMzMzPzvxAAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-15T18:44:41.031Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "20260915185618_intialCreation.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Advance-.Net\\Practice\\APIFinalTest\\Migrations\\20260915185618_intialCreation.cs",
+              "RelativeDocumentMoniker": "Migrations\\20260915185618_intialCreation.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\Advance-.Net\\Practice\\APIFinalTest\\Migrations\\20260915185618_intialCreation.cs",
+              "RelativeToolTip": "Migrations\\20260915185618_intialCreation.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-15T18:56:18.954Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Patient.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Advance-.Net\\Practice\\APIFinalTest\\EF\\Patient.cs",
+              "RelativeDocumentMoniker": "EF\\Patient.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\Advance-.Net\\Practice\\APIFinalTest\\EF\\Patient.cs",
+              "RelativeToolTip": "EF\\Patient.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-15T18:50:22.887Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Advance-.Net\\Practice\\APIFinalTest\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "appsettings.Development.json",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\Advance-.Net\\Practice\\APIFinalTest\\appsettings.Development.json",
+              "RelativeToolTip": "appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-09-15T18:38:25.274Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Advance-.Net\\Practice\\APIFinalTest\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\Advance-.Net\\Practice\\APIFinalTest\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-09-15T18:38:22.618Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "APIFinalTest.csproj",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Advance-.Net\\Practice\\APIFinalTest\\APIFinalTest.csproj",
+              "RelativeDocumentMoniker": "APIFinalTest.csproj",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\Advance-.Net\\Practice\\APIFinalTest\\APIFinalTest.csproj",
+              "RelativeToolTip": "APIFinalTest.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-09-15T18:37:46.358Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 1083,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

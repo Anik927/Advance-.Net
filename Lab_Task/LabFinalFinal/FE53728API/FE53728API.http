@@ -1,0 +1,6 @@
+@FE53728API_HostAddress = http://localhost:5047
+
+GET {{FE53728API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
